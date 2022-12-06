@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://telegra.ph/file/64f4b1e3ab6d6911447d2.jpg">
+  <img src="https://telegra.ph/file/7ef1d87d0b20ee66d6f8f.jpg">
 </p>
 
-<h4><p align="center"> YINS ROBOT </p></h4>
+<h4><p align="center"> GUGUN ROBOT </p></h4>
 
 <p align="center">Yins Robot is a modular bot running on python3 with anime theme and have a lot features.</p>
 
