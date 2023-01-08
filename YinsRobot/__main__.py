@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an ʙᴏᴛ ᴍᴀɴᴀɢᴇʀ + ᴍᴜsɪᴄ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡᴇʟʟ [✨](https://telegra.ph/file/7ef1d87d0b20ee66d6f8f.jpg)
+✪ I'm an ʙᴏᴛ ᴍᴀɴᴀɢᴇʀ + ᴍᴜsɪᴄ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡᴇʟʟ [✨](https://telegra.ph/file/01d487fc88cbddfdbc879.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -93,7 +93,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About Gugun Robot", callback_data="yins_"),
+        InlineKeyboardButton(text="About TRYMASKOS", callback_data="yins_"),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
@@ -103,7 +103,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Gugun To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
+            text="➗ Add TRYMASKOS To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
@@ -113,7 +113,7 @@ Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @PANGGIL_AJA_MAS \
+ You can support the project by contacting @yahkamukepo2 \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -360,7 +360,7 @@ def yins_about_callback(update, context):
     query = update.callback_query
     if query.data == "yins_":
         query.message.edit_text(
-            text="๏ I'm *Gugun*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *TRYMASKOS*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -408,7 +408,7 @@ def yins_about_callback(update, context):
     elif query.data == "yins_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, GugunRobot now ready to manage your group."
+            "\nCongragulations, TRYMASKOS now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -798,7 +798,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "✨ Hai, GugunRobot Berhasil Diaktifkan",
+                "✨ Hai, TRYMASKOS Berhasil Diaktifkan",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
