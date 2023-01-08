@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://telegra.ph/file/7ef1d87d0b20ee66d6f8f.jpg">
+  <img src="https://telegra.ph/file/01d487fc88cbddfdbc879.jpg">
 </p>
 
-<h4><p align="center"> GUGUN ROBOT </p></h4>
+<h4><p align="center"> TRYMASKOS </p></h4>
 
 <p align="center">Yins Robot is a modular bot running on python3 with anime theme and have a lot features.</p>
 
@@ -39,13 +39,6 @@ This Bot is Created by KennedyProject, If your kanging this without fork at leas
 
 [![Deploy](https://vercel.com/button)](https://ayiin.vercel.app)
 
-
-### Support
-<p>
-<a href="https://t.me/AyiinXd"> <img src="https://img.shields.io/badge/AyiinXd-blue?&logo=telegram" alt="Sena on Telegram" /> </a><br>
-<a href="https://t.me/AyiinXdSupport"> <img src="https://img.shields.io/badge/Support-Chat-blue?&logo=telegram" alt="Support Chat" /> </a><br>
-<a href="https://t.me/AyiinSupport"> <img src="https://img.shields.io/badge/Update-Channel-blue?&logo=telegram" alt="Update Channel" /> </a><br>
-</p>
 
 ## Credit 
 
