@@ -9,17 +9,17 @@ from YinsRobot.events import register
 from YinsRobot import telethn as tbot
 
 yinzver = "2.0.22"
-PHOTO = "https://telegra.ph/file/7ef1d87d0b20ee66d6f8f.jpg"
+PHOTO = "https://telegra.ph/file/01d487fc88cbddfdbc879.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Gugun Robot.** \n\n"
+  TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm TRYMASKOS.** \n\n"
   TEXT += "✨ **I'm Working Properly** \n\n"
-  TEXT += f"✨ **Oᴡɴᴇʀ : [ᴍʏ ʙᴏss](https://t.me/PANGGIL_AJA_MAS)** \n\n"
+  TEXT += f"✨ **Oᴡɴᴇʀ : [ᴍʏ ʙᴏss](https://t.me/yahkamukepo2)** \n\n"
   TEXT += f"✨ **Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ    :** `{telever}` \n\n"
   TEXT += f"✨ **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ   :** `{tlhver}` \n\n"
   TEXT += f"✨ **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{pyrover}` \n\n"
   TEXT += f"✨ **GugunRᴏʙᴏᴛ Vᴇʀsɪᴏɴ :** `{yinzver}` \n\n"
   TEXT += "**Thanks For Adding Me Here ✨**"
-  BUTTON = [[Button.url("Help", "https://t.me/Assistenmusik_bot?start=help"), Button.url("Support", "https://t.me/+dgaE6Hme_9I4ZGNl")]]
+  BUTTON = [[Button.url("Help", "https://t.me/Trymaskosbot?start=help"), Button.url("Support", "https://t.me/gabutanbabyo")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)
