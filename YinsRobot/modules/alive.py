@@ -13,13 +13,13 @@ PHOTO = "https://te.legra.ph/file/0e373871c4c0ba3e2f0ca.jpg">
 
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm TRYMASKOS.** \n\n"
+  TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm RUMBEL.** \n\n"
   TEXT += "✨ **I'm Working Properly** \n\n"
   TEXT += f"✨ **Oᴡɴᴇʀ : [ᴍʏ ʙᴏss](https://t.me/yahkamukepo2)** \n\n"
   TEXT += f"✨ **Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ    :** `{telever}` \n\n"
   TEXT += f"✨ **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ   :** `{tlhver}` \n\n"
   TEXT += f"✨ **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{pyrover}` \n\n"
-  TEXT += f"✨ **ᴛʀʏᴍᴀꜱᴋᴏꜱ Vᴇʀsɪᴏɴ :** `{yinzver}` \n\n"
+  TEXT += f"✨ **RAMBEL Vᴇʀsɪᴏɴ :** `{yinzver}` \n\n"
   TEXT += "**Thanks For Adding Me Here ✨**"
   BUTTON = [[Button.url("Help", "https://t.me/Trymaskosbot?start=help"), Button.url("Support", "https://t.me/gabutanbabyo")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)
