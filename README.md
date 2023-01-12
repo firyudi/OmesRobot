@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/01d487fc88cbddfdbc879.jpg">
+  <img src=https://te.legra.ph/file/0e373871c4c0ba3e2f0ca.jpg">
 </p>
 
 <h4><p align="center"> TRYMASKOS </p></h4>
