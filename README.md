@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/814c7a1a99697ad4fe74f.jpg">
+  <img src="https://telegra.ph/file/59f77274bbe2e2b0a806d.jpg">
 </p>
 
 <h4><p align="center"> RAMBEL </p></h4>
