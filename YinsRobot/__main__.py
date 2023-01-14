@@ -93,7 +93,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About TRYMASKOS", callback_data="yins_"),
+        InlineKeyboardButton(text="About RAMBEL", callback_data="yins_"),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
@@ -103,7 +103,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add TRYMASKOS To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
+            text="➗ Add RAMBEL To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
