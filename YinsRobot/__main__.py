@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an ʙᴏᴛ ᴍᴀɴᴀɢᴇʀ + ᴍᴜsɪᴄ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡᴇʟʟ [✨](https://telegra.ph/file/01d487fc88cbddfdbc879.jpg)
+✪ I'm an ʙᴏᴛ ᴍᴀɴᴀɢᴇʀ + ᴍᴜsɪᴄ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡᴇʟʟ [✨](https://telegra.ph/file/9ee069dd82859e2bc98a9.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
