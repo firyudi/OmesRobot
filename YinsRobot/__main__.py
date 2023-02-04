@@ -360,7 +360,7 @@ def yins_about_callback(update, context):
     query = update.callback_query
     if query.data == "yins_":
         query.message.edit_text(
-            text="๏ I'm *TRYMASKOS*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *RAMBEL*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -408,7 +408,7 @@ def yins_about_callback(update, context):
     elif query.data == "yins_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, TRYMASKOS now ready to manage your group."
+            "\nCongragulations, RAMBEL now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -436,7 +436,7 @@ def yins_about_callback(update, context):
     elif query.data == "yins_support":
         query.message.edit_text(
             text="*๏ Yins support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on TRYMASKOS.",
+            "\nJoin My Support Group/Channel for see or report a problem on RAMBEL.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -798,7 +798,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "✨ Hai, TRYMASKOS Berhasil Diaktifkan",
+                "✨ Hai, RAMBEL Berhasil Diaktifkan",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
