@@ -98,7 +98,7 @@ buttons = [
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Try inline!​​", switch_inline_query_current_chat=""
+            text="🇮🇩Try inline🇮🇩!​​", switch_inline_query_current_chat=""
         ),
     ],
     [
@@ -374,15 +374,15 @@ def yins_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Admins", callback_data="yins_admin"),
+                    InlineKeyboardButton(text="🍻Admins🍻", callback_data="yins_admin"),
                     InlineKeyboardButton(text="Notes", callback_data="yins_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="Support", callback_data="yins_support"),
-                    InlineKeyboardButton(text="😎 ᴅᴇᴠᴇʟᴏᴩᴇʀ ", url="https://t.me/yahkamukepo2"),
+                    InlineKeyboardButton(text="📢Support📢", callback_data="yins_support"),
+                    InlineKeyboardButton(text="🤙 ᴅᴇᴠᴇʟᴏᴩᴇʀ ", url="https://t.me/yahkamukepo2"),
                  ],
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="yins_back"),
+                    InlineKeyboardButton(text="↪️Go Back↩️", callback_data="yins_back"),
                  ]
                 ]
             ),
@@ -427,7 +427,7 @@ def yins_about_callback(update, context):
             f"\n\nYou can also set buttons for notes and filters (refer help menu)",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Go Back", callback_data="yins_")]]
+                [[InlineKeyboardButton(text="↪️Go Back↩️", callback_data="yins_")]]
             ),
         )
     elif query.data == "yins_support":
