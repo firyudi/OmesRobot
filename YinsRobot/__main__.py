@@ -103,7 +103,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🤙 Add RAMBEL To Your Group 🤙", url=f"t.me/{bu}?startgroup=new"),
+            text="🤙 𝐀𝐃𝐃 𝐆𝐔𝐀 𝐋𝐀𝐇 𝐍𝐆𝐀𝐁 🤙", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
