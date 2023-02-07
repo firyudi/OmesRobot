@@ -379,10 +379,7 @@ def yins_about_callback(update, context):
                  ],
                  [
                     InlineKeyboardButton(text="Support", callback_data="yins_support"),
-                    InlineKeyboardButton(text="Credits", callback_data="yins_credit"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com"),
+                    InlineKeyboardButton(text="😎 ᴅᴇᴠᴇʟᴏᴩᴇʀ ", url="https://t.me/yahkamukepo2"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="yins_back"),
@@ -441,7 +438,7 @@ def yins_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/+vS713QXxtcFlODdl"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/pantekyks"),
                     InlineKeyboardButton(text="Updates", url="https://t.me/gabutanbabyo"),
                  ],
                  [
