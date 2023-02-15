@@ -379,7 +379,7 @@ def yins_about_callback(update, context):
                  ],
                  [
                     InlineKeyboardButton(text="📢Support📢", callback_data="yins_support"),
-                    InlineKeyboardButton(text="🤙 ᴅᴇᴠᴇʟᴏᴩᴇʀ ", url="https://t.me/omesnakal"),
+                    InlineKeyboardButton(text="🤙 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🤙", url="https://t.me/omesnakal"),
                  ],
                  [
                     InlineKeyboardButton(text="↪️Go Back↩️", callback_data="yins_back"),
@@ -438,7 +438,7 @@ def yins_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="https://t.me/brj_forever"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/NewEraID"),
                     InlineKeyboardButton(text="Updates", url="https://t.me/epritink"),
                  ],
                  [
